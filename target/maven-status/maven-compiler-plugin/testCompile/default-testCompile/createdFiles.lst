@@ -1,0 +1,8 @@
+org\adacitin\scenario\DataProviderTest.class
+org\adacitin\scenario\RegistrationScenario2.class
+org\swiggy\withpagefactory\SwiggySignupPagefactory.class
+org\adacitin\scenario\KnownFailedTest.class
+org\adacitin\scenario\RegistrationScenario.class
+org\adacitin\scenario\Iannota.class
+org\adacitin\scenario\PArallelTest.class
+org\adacitin\scenario\Priority.class

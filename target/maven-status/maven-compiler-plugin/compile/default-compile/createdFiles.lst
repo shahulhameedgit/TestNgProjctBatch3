@@ -1,0 +1,7 @@
+org\adacitin\baseclass\Brokenlink.class
+org\adacitin\baseclass\CommonUtils.class
+org\adacitin\baseclass\ReadData.class
+org\adacitin\baseclass\IannotationTransformerTest.class
+org\adacitin\baseclass\Setup.class
+org\adacitin\baseclass\RetryAnalyser.class
+org\adacitin\baseclass\Slf4J.class

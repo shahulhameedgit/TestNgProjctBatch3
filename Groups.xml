@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Groups">
+	
+	<test thread-count="5" name="Test">
+	<groups>
+		<define name="sansmoke">
+			<include name="sanity"></include>
+			<include name="smoke"></include>
+		</define>
+		<define name="smokereg">
+			<include name="regress"></include>
+			<include name="smoke"></include>
+		</define>
+		<define name="sanreg">
+			<include name="sanity"></include>
+			<include name="regress"></include>
+		</define>
+		<run>
+			<include name="sansmoke"></include>
+		</run>
+	</groups>
+		<classes>
+			<class name="org.adacitin.scenario.PArallelTest" />
+			<class name="org.adacitin.scenario.Priority" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Groups -->

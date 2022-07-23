@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Paral]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="org.adacitin.scenario.RegistrationScenario">
+        <methods>
+          <include name="loadURL"/>
+          <include name="phonenumnerValiddatc"/>
+          <include name="phonenumnerValiddata"/>
+          <include name="phonenumnerValiddatb"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.adacitin.scenario.RegistrationScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Paral] -->
