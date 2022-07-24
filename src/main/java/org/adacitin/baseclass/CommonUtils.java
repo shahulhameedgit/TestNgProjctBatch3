@@ -200,8 +200,11 @@ public class CommonUtils extends Setup {
 	
 	
 	
+	public void newcodes() {
+		System.out.println("to check conflicts");
+	}
 	public void newcode() {
-		System.out.println("to check conflict");
+		System.out.println("to check conflicts");
 	}
 	
 	
