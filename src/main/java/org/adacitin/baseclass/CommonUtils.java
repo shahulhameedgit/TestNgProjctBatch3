@@ -198,6 +198,17 @@ public class CommonUtils extends Setup {
 //	
 //	}
 	
+	
+	
+	public void newcode() {
+		System.out.println("to check conflict");
+	}
+	
+	
+	
+	
+	
+	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 		int status = result.getStatus();
